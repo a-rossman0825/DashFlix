@@ -1,0 +1,101 @@
+@import '_main.scss';
+
+//custom colors
+:root {
+  --bs-body-bg: #020617;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#pop-toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.border-blue {
+  border: 1px solid #192e5fd2;
+}
+
+.border-right-blue {
+  border-right: 2px solid #192e5fd2;
+}
+
+.border-bottom-blue {
+  border-bottom: 2px solid #192e5fd2;
+}
+
+.border-top-blue {
+  border-top: 1px solid #192e5fd2
+}
+.border-left-blue {
+  border-left: 1px solid #192e5fd2;
+}
+
+.custom-dialog {
+  min-width: 320px;
+  max-width: 90vw;
+  border-radius: 12px;
+  border: none;
+  background: #e0e1e2;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 0;
+  color: var(--bs-light, #fff);
+}
+
+.custom-dialog .dialog-body {
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  text-align: center;
+}
+
+.custom-dialog h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: var(--bs-primary, #0984e3);
+}
+
+.custom-dialog hr {
+  margin: 0.5rem 0 1rem 0;
+  border-color: var(--bs-primary, #0984e3);
+}
+
+.custom-dialog .dialog-buttons {
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.custom-dialog .btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s;
+}
+
+
+//hover effects for PageCard and StackCard Components
+.hover-info {
+  border-color: #192e5fd2;
+}
+.hover-success {
+  border-color: #192e5fd2;
+}
+.hover-purple {
+  border-color: #192e5fd2;
+}
+.hover-danger {
+  border-color: #192e5fd2;
+}
+.hover-warning {
+  border-color: #192e5fd2;
+}
