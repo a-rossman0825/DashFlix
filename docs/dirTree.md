@@ -55,40 +55,7 @@
     │   ├── package.json
     │   ├── Readme.md
     │   ├── tsconfig.json
-    │   └── vite.config.ts
-    ├── server/
-    │   ├── .vscode/
-    │   │   ├── launch.json
-    │   │   ├── server-snippets.code-snippets
-    │   │   └── tasks.json
-    │   ├── Controllers/
-    │   │   ├── AccountController.cs
-    │   │   └── ExampleController.cs
-    │   ├── Data/
-    │   │   └── AppDbContext.cs
-    │   ├── DTOs/
-    │   │   ├── AccountDTO.cs
-    │   │   └── ExampleDTO.cs
-    │   ├── Migrations/
-    │   ├── Models/
-    │   │   ├── Account.cs
-    │   │   └── Example.cs
-    │   ├── Properties/
-    │   │   └── launchsettings.json
-    │   ├── Repositories/
-    │   │   ├── AccountsRepository.cs
-    │   │   └── ExamplesRepository.cs
-    │   ├── Services/
-    │   │   ├── AccountService.cs
-    │   │   └── ExampleService.cs
-    │   ├── wwwroot/
-    │   │   └── index.html
-    │   ├── .gitignore
-    │   ├── appsettings.json
-    │   ├── Globals.cs
-    │   ├── Program.cs
-    │   ├── server.csproj
-    │   └── Startup.cs
+    │   └── vite.confi
     ├── scripts/
     │   └── migrate.sh
     └── docs/
