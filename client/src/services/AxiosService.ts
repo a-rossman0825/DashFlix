@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import { baseURL } from '@/env';
+import { baseURL } from '@/env.ts';
 import { logger } from '@/utils/Logger';
 
 export const api = Axios.create({

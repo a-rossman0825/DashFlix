@@ -1,16 +1,9 @@
-<script lang="ts" setup>
-
-</script>
-
+<script lang="ts" setup></script>
 
 <template>
-
-  <main class="container pt-3">
+  <main class="">
     
   </main>
 </template>
 
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

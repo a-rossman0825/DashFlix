@@ -9,5 +9,22 @@
       "  logger.error('${2:ErrorMessage}', err);",
       "}"
     ]
+  },
+  "Vue Component Template": {
+    "prefix": "vt",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Vue 3 component template with script, template, and style sections."
   }
 }
