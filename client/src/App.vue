@@ -6,7 +6,7 @@ import { RouterView } from 'vue-router';
 
 <template>
 
-<main class="body-bg">
+<main class="bg-dark">
   <RouterView />
 </main>
 
