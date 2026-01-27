@@ -1,10 +1,13 @@
 import Axios from 'axios';
-import { baseURL } from '@/env.ts';
+import { baseURL, apiKey } from '@/env.ts';
 import { logger } from '@/utils/Logger';
 
 export const api = Axios.create({
   baseURL,
-  timeout: 8000
+  timeout: 8000,
+  params: {
+    api_key: apiKey,
+  }
 });
 
 api.interceptors.request.use(config => config, handleAxiosError);
