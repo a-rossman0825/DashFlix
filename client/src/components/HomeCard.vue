@@ -16,4 +16,10 @@ const props = defineProps<{
 
 <style lang="scss" scoped>
 
+    .movie-card {
+        width: 300px;
+        height: 300px;
+    }
+
+
 </style>

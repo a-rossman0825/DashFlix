@@ -1,10 +1,11 @@
 <script lang="ts" setup>
+import CarouselWrapper from '@/components/CarouselWrapper.vue';
 import HomeCard from '@/components/HomeCard.vue';
 import { useMovieStore } from '@/Stores/MovieStore';
 import { computed, onMounted } from 'vue';
 
 const movieStore = useMovieStore(); 
-const movies = computed(() =>  movieStore.popularMovies );
+const popularMovies = computed(() =>  movieStore.popularMovies );
 
 onMounted(() => {
   movieStore.getPopularMovies();
@@ -23,12 +24,10 @@ onMounted(() => {
     </div>
 
     <!-- STUB - draw movies -->
-    <div class="container" v-else>
-      <div class="row">
-        <HomeCard v-for="movie in movies" :key="`popular-movie-key-${movie.id}`" :movie="movie" />
-      </div>  
-    </div>
+    <CarouselWrapper title="Popular Movies" :movies="popularMovies" />
   </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
