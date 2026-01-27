@@ -25,7 +25,7 @@ onMounted(() => {
     <!-- STUB - draw movies -->
     <div class="container" v-else>
       <div class="row">
-        <HomeCard />
+        <HomeCard v-for="movie in movies" :key="`popular-movie-key-${movie.id}`" :movie="movie" />
       </div>  
     </div>
   </main>
