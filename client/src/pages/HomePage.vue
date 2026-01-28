@@ -24,7 +24,7 @@ onMounted(() => {
     </div>
 
     <!-- STUB - draw movies -->
-    <CarouselWrapper title="Popular Movies" :movies="popularMovies" />
+    <CarouselWrapper title="Most popular movies" :movies="popularMovies" />
   </main>
 </template>
 
