@@ -118,7 +118,7 @@ function handleMouseLeave() {
       <!-- YouTube Trailer -->
       <iframe
         v-if="showTrailer && trailerKey"
-        :src="`https://www.youtube.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&autohide=1&iv_load_policy=3&disablekb=1&fs=0&playsinline=1`"
+        :src="`https://www.youtube.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1`"
         class="trailer-iframe"
         frameborder="0"
         allow="autoplay; encrypted-media"
